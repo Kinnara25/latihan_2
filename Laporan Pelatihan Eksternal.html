@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="id_pelatihan" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Laporan Pelatihan Eksternal.php" method="get"></form>
+    <legend><h1>Laporan Pelatihan Eksternal</h1></legend>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>:</td>
+            <td><input type="name" name="id_pelatihan"  required/><br /></td>
+        </tr> 
+    
+        <tr>
+            <td>NIK</td>
+            <td>:</td>
+            <td><select name="lpe_nik">
+                <option value="123">123</option>
+                <option value="4556">456</option>
+                <option value="789">789</option>
+                <option value="012">012</option>
+                <option value="345">345</option>
+            <input type="text"name=lpe_nama/>
+            </select></td>
+                 
+        </tr>
+
+
+        <tr>
+            <td>Point Pelatihan</td>
+            <td>:</td>
+            <td><textarea name="lpe_point" cols="50" rows="4"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Kesan/Pendapat</td>
+            <td>:</td>
+            <td><textarea name="lpe_kesan" cols="50" rows="4"></textarea></td>
+        </tr>
+
+          <tr>
+            <td>Point Pelatihan</td>
+            <td>:</td>
+            <td><textarea name="lpe_point" cols="50" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>Bentuk Pengayaan Pribadi</td>
+            <td>:</td>
+            <td><textarea name="lpe_pengayaan" cols="50" rows="4"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Pengaplikasian </td>
+            <td>:</td>
+            <td><textarea name="lpe_pengaplikasian" cols="50" rows="4"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Lampiran</td>
+            <td>:</td>
+            <td style="border: 1px solid black;"><input type="file" name="Upload"value="Upload" id="File upload"></td>
+                <label for="file upload">select a file to upload</label>
+
+        </tr>
+        
+        <tr>
+            <td>
+            <td><input type="submit"name="lpe_update" value="Update"/><br></td>
+            <td><input type="submit"name="lpe_close" value="Close"/><br></td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
